@@ -5,6 +5,8 @@ declare namespace NodeJS{
         readonly NODE_ENV: 'dev' | 'prod';
         readonly JWT_KEY: string;
         readonly  JWT_EXPIRES_IN: number;
+        readonly  JWT_RESET_EXPIRE: number;
+
         readonly EMAIL_HOST:string;
         readonly EMAIL_ADDRESS: string;
         readonly PASSWORD_EMAIL:string;

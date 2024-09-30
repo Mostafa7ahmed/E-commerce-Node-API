@@ -8,8 +8,11 @@
     "start:prod": "NODE_ENV=prod node ./dist/app.js",
     "build": "tsc"
   },
+  "engines":{
+     "node":"20.x"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Mostafa Hamed",
   "license": "ISC",
   "dependencies": {
     "@types/cookie-parser": "^1.4.7",
